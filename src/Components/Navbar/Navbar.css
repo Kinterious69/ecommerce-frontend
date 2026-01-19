@@ -1,0 +1,167 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1px;
+  box-shadow: 0 1px 3px -2px black;
+  height: 115px; 
+  background: #0e0e0e;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-logo p {
+  font-size: 38px;
+  font-weight: 600;
+  color: #f3f3f3;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  font-size: 20px;
+}
+
+.nav-style {
+  text-decoration: none;
+  color: #f3f3f3;
+  font-weight: 500;
+}
+
+.nav-menu hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background: #ff4141;
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-login-cart button {
+  width: 117px;
+  height: 42px;
+  border: 1px solid #7a7a7a;
+  border-radius: 75px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #ff4141;
+  color: #f3f3f3;
+  text-align: center;
+}
+
+.nav-login-cart button:active {
+  background: #f3f3f3;
+  color: #0e0e0e;
+}
+
+.nav-cart-count {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -35px;
+  margin-left: -55px;
+  border-radius: 50%;
+  font-size: 15px;
+  background: red;
+  color: white;
+}
+
+.nav-dropdown {
+  display: none;
+  color: #7a7a7a;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 1280px) {
+  .navbar {
+    padding: 12px 50px;
+  }
+
+  .nav-logo p {
+    font-size: 25px;
+  }
+
+  .nav-menu {
+    gap: 30px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 12px 30px;
+  }
+
+  .nav-menu {
+    gap: 25px;
+    font-size: 14px;
+  }
+
+  .nav-login-cart button {
+    width: 80px;
+    height: 35px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 800px) {
+  .navbar {
+    padding: 10px 0px;
+    background: #f3f3f3;
+  }
+
+  .nav-logo p,
+  .nav-style {
+    color: #0e0e0e;
+  }
+
+  .nav-dropdown {
+    display: block;
+    width: 30px;
+    transform: rotate(0deg);
+    transition: 0.5s;
+  }
+
+  .nav-menu {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    justify-content: center;
+  }
+
+  .nav-menu-visible {
+    display: flex;
+  }
+
+  .open {
+    transform: rotate(180deg);
+  }
+}
+@media (max-width:500px){
+   
+    .carts {
+       width: 18px;
+       margin-left: 0px;
+    
+    }
+    .nav-login-cart button{
+        margin-left: 10px;
+    }
+    
+}
