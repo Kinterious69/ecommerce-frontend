@@ -4,7 +4,6 @@ import logo from '../Assets/logo.png'
 import shopping from '../Assets/shopping-cart-white-icon.png'
 import { Link } from 'react-router-dom'
 import { ShopContext } from '../../Context/ShopContext'
-import dropdown from '../Assets/nav_dropdown.png'
 import arrows from '../Assets/arrows.png'
 
 
@@ -26,7 +25,7 @@ const Navbar = () => {
         <img src={logo} alt="" />
          <p>Shopper</p> 
          </div>
-       <img className='nav-dropdown' onClick={dropdown_toggle } src={arrows}/>
+       <img className='nav-dropdown' onClick={dropdown_toggle } src={arrows} alt=''  />
       <ul ref={menuRef} className="nav-menu">
         <li onClick={()=>{setmenu("shop")}}><Link className='nav-style' to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
         <li onClick={()=>{setmenu("mens")}}><Link className='nav-style' to='/mens'>Men</Link>{menu==="mens"?<hr/>:<></>}</li>
