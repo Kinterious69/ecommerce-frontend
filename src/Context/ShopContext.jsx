@@ -1,5 +1,6 @@
 
 import React, { createContext, useEffect, useState } from "react";
+import { BASE_URL } from "../config";
 
 export const ShopContext = createContext(null);
 
@@ -9,14 +10,17 @@ const getDefaultCart = () => ({});
 const ShopContextProvider = (props) => {
   const [all_product, setAllProducts] = useState([]);
   const [cartItems, setCartItems] = useState(getDefaultCart());
+ 
 
   
   const [authToken, setAuthToken] = useState(
     localStorage.getItem("auth-token")
   );
+  
 
   //  AUTH TOKEN SYNC  
   useEffect(() => {
+    
     const handleStorageChange = () => {
       setAuthToken(localStorage.getItem("auth-token"));
     };
@@ -26,8 +30,9 @@ const ShopContextProvider = (props) => {
 
   //  FETCH PRODUCTS & CART 
   useEffect(() => {
+    
     // Fetch products
-    fetch("http://localhost:4000/api/products/allproducts")
+    fetch(`${BASE_URL}/api/products/allproducts`)
       .then((res) => res.json())
       .then((data) => setAllProducts(data))
       .catch((err) => console.error("Product fetch error:", err));
@@ -38,7 +43,7 @@ const ShopContextProvider = (props) => {
     }
 
     // Fetch cart
-    fetch("http://localhost:4000/api/users/getcart", {
+    fetch(`${BASE_URL}/api/users/getcart`, {
       method: "POST",
       headers: {
         "auth-token": authToken,
@@ -66,8 +71,8 @@ const ShopContextProvider = (props) => {
 
     const endpoint =
       quantity > 0
-        ? "http://localhost:4000/api/users/addtocart"
-        : "http://localhost:4000/api/users/removefromcart";
+        ? `${BASE_URL}/api/users/addtocart`
+        : `${BASE_URL}/api/users/removefromcart`;
 
     fetch(endpoint, {
       method: "POST",
