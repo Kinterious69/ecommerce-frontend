@@ -43,7 +43,7 @@ const LoginSignup = () => {
   const signUp = async () => {
     let responseData;
 
-    await fetch(`${BASE_URL}/api/users/signup,`, {
+    await fetch(`${BASE_URL}/api/users/signup`, {
       method: 'POST',
       headers: {
         Accept: 'application/json',
