@@ -106,6 +106,7 @@
 @media (max-width: 500px) {
   .offers {
     height: 25vh;
+    width: 80%;
     margin-bottom: 50px;
     background: #3d7eaa;
     padding: 0 20px;

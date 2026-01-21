@@ -122,12 +122,12 @@
 @media (max-width: 800px) {
   .navbar {
     padding: 10px 0px;
-    background: #f3f3f3;
+    background: #30364F;
   }
 
   .nav-logo p,
   .nav-style {
-    color: #0e0e0e;
+    color: whitesmoke;
   }
 
   .nav-dropdown {
@@ -156,7 +156,7 @@
 @media (max-width:500px){
    
     .carts {
-       width: 18px;
+       width: 25px;
        margin-left: 0px;
     
     }

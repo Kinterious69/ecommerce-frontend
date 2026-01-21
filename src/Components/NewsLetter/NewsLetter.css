@@ -150,7 +150,7 @@
 
 @media (max-width: 500px) {
   .news-letter {
-    width: 100%;
+    width: 80%;
     height: 25vh;
     padding: 0px;
     gap: 15px;
