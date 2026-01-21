@@ -1,6 +1,7 @@
 import React, { useState, useContext } from 'react';
 import './CSS/LoginSignup.css';
 import { ShopContext } from '../Context/ShopContext'; 
+import {BASE_URL} from '../config'
 
 const LoginSignup = () => {
   const { setAuthToken } = useContext(ShopContext); 
@@ -19,7 +20,7 @@ const LoginSignup = () => {
   const login = async () => {
     let responseData;
 
-    await fetch('http://localhost:4000/api/users/login', {
+    await fetch(`${BASE_URL}/api/users/login`, {
       method: 'POST',
       headers: {
         Accept: 'application/json',
@@ -42,7 +43,7 @@ const LoginSignup = () => {
   const signUp = async () => {
     let responseData;
 
-    await fetch('http://localhost:4000/api/users/signup', {
+    await fetch(`${BASE_URL}/api/users/signup,`, {
       method: 'POST',
       headers: {
         Accept: 'application/json',
