@@ -11,10 +11,10 @@ The project is deployed using:
 
 ##  Live Links
 
-- **Frontend (Vercel):
+- Frontend (Vercel):
   https://ecommerce-frontend-rtza.vercel.app
 
-- **Backend API (Render): 
+- Backend API (Render): 
   https://ecommerce-backend-vs0f.onrender.com
 
 
