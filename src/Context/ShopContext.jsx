@@ -65,7 +65,7 @@ const ShopContextProvider = (props) => {
       .catch((err) => console.error("Cart fetch error:", err));
   }, [authToken]);
 
-  /*  CART SYNC  */
+  // CART SYNC  
   const syncCartWithServer = (productId, quantity) => {
     if (!authToken) return;
 

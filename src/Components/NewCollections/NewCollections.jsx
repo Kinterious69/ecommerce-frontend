@@ -9,10 +9,9 @@ const NewCollections = () => {
   const [new_collection, setNew_collection] = useState([]);
 
   useEffect(() => {
-    // newest 8 products
     const latest = [...all_product].reverse().slice(0, 8);
     setNew_collection(latest);
-      window.new_collection = latest; // now you can inspect in console
+     
 
   }, [all_product]);
 
