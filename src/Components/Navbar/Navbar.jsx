@@ -44,7 +44,7 @@ const Navbar = () => {
             window.location.replace("/");
           } }} > Logout </button> ) : ( <Link to="/login">  <button>Login</button>  </Link>)}
 
-     <Link to='/cart'> <img  className='carts' src={shopping} alt="" /></Link>
+     <Link to='/cart'> <img src={shopping} alt="" /></Link>
         <div className="nav-cart-count">{getTotalCartItems()}</div>
       </div>
        

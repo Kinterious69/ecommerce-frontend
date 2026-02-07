@@ -123,6 +123,8 @@
   .news-letter {
     margin-bottom: 30px;
     height: 35vh;
+   
+   
   }
 
   .news-letter h1 {
@@ -136,10 +138,12 @@
   .news-letter div {
     width: 400px;
     height: 40px;
+   
+ 
   }
 
   .news-letter div input {
-    width: 300px;
+    width: 100px;
     font-size: 14px;
   }
 
@@ -147,6 +151,7 @@
     width: 100px;
     height: 40px;
     font-size: 13px;
+    
   }
 }
 
@@ -168,11 +173,11 @@
   }
 
   .news-letter div {
-    width: 290px;
+    width: 270px;
   }
 
   .news-letter div input {
-    width: 130px;
+    width: 110px;
   }
   .news-letter div button {
     text-align: center;
