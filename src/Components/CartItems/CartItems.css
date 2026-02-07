@@ -15,12 +15,12 @@
   gap: 75px;
   padding: 20px 0px;
   color: #454545;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 
 .cartitems-format {
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -54,6 +54,9 @@
   margin-right: 200px;
   gap: 40px;
 }
+.cartitems-total h1{
+  font-size: 20px;
+}
 
 .cartitems-total-items {
   display: flex;
@@ -62,12 +65,12 @@
 }
 
 .cartitems-total button {
-  width: 262px;
-  height: 58px;
+  width: 172px;
+  height: 52px;
   border: none;
   background: #ff5a5a;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
   cursor: pointer;
   text-align: center;
@@ -84,10 +87,10 @@
 }
 
 .cartitems-promobox {
-  width: 504px;
+  width: 450px;
   margin-top: 15px;
   padding-left: 20px;
-  height: 58px;
+  height: 52px;
   background: #eaeaea;
   display: flex;
 }
@@ -104,7 +107,7 @@
 
 .cartitems-promobox button {
   width: 170px;
-  height: 58px;
+  height: 52px;
   font-size: 16px;
   background: black;
   color: white;

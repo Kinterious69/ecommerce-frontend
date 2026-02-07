@@ -4,6 +4,10 @@
     justify-content: space-between;
     align-items: center;
 }
+.shopCategory-banner{
+    height: 30vh;
+    width: 100vw;
+}
 
 .shopCategory-sort {
     padding: 10px 20px;
@@ -39,7 +43,7 @@
 /* RESPONSIVE DESIGN */
 @media(max-width:1280px) {
     .shopCategory-banner {
-        margin: 20px auto;
+        margin: 0px auto;
         width: 90%;
     }
     .shopCategory-indexSort {
@@ -71,7 +75,8 @@
 
 @media(max-width:800px) {
     .shopCategory-banner {
-        width: 95%;
+       width: 100vw;
+       height: auto;
     }
     .shopCategory-products {
         width: 95%;

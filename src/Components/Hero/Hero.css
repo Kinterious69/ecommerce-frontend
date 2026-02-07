@@ -1,5 +1,5 @@
 .hero {
-  height: 100vh;
+  height: 90vh;
   background: linear-gradient(180deg, #3d7eaa 0%, #ffe47a 60%);
   display: flex;
 }
@@ -12,18 +12,18 @@
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  padding-left: 180px;
+  padding-left: 80px;
   line-height: 1.1;
 }
 
 .hero-left h2 {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 600;
   color: #000;
 }
 
 .hero-left p {
-  font-size: 100px;
+  font-size: 75px;
   font-weight: 700;
   color: #000;
 }
@@ -35,7 +35,7 @@
 }
 
 .hand-icon img {
-  width: 100px;
+  width: 80px;
 }
 
 .hero-latest-btn {
@@ -58,6 +58,9 @@
   align-items: center;
   justify-content: center;
   margin-right: 60px;
+}
+.hero-right img{
+ height: 600px;
 }
 
 /*  RESPONSIVE DESIGN */

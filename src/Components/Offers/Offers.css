@@ -1,10 +1,10 @@
 .offers {
   width: 65%;
+  height: 70vh;
   display: flex;
   margin: 100px auto;
-  margin-bottom: 150px;
-  padding: 0px 140px;
   background: linear-gradient(180deg, #3d7eaa 0%, #ffe47a 60%);
+  padding:2px 50px;
 }
 
 .offers-left {
@@ -12,11 +12,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
+
 }
 
 .offers-left h1 {
   color: #171717;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 800;
 }
 
@@ -24,21 +26,21 @@
   color: #171717;
   font-size: 22px;
   font-weight: 600;
+ 
 }
 
 .offers-left button {
-  width: 282px;
-  height: 80px;
   border-radius: 35px;
   background: #ff4141;
   border: none;
   color: white;
   font-size: 22px;
   font-weight: 500;
-  margin-top: 32px;
+  margin-top: 12px;
   cursor: pointer;
   text-align: center;
-  padding: 15px;
+  padding: 10px 5px;
+  width: 200px;
 }
 
 .offers-right {
@@ -47,6 +49,10 @@
   align-items: center;
   justify-content: flex-end;
   padding-top: 50px;
+}
+.offers-right img{
+  width: 300px;
+  padding-bottom: 10px;
 }
 
 /* RESPONSIVE DESIGN */

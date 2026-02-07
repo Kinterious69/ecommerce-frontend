@@ -4,7 +4,7 @@
   align-items: center;
   padding: 1px;
   box-shadow: 0 1px 3px -2px black;
-  height: 115px; 
+  height: 70px; 
   background: #0e0e0e;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .nav-logo p {
-  font-size: 38px;
+  font-size: 25px;
   font-weight: 600;
   color: #f3f3f3;
 }
@@ -25,7 +25,7 @@
   align-items: center;
   list-style: none;
   gap: 50px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .nav-style {
@@ -49,11 +49,10 @@
 }
 
 .nav-login-cart button {
-  width: 117px;
-  height: 42px;
+  padding: 7px 20px;
   border: 1px solid #7a7a7a;
   border-radius: 75px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   background: #ff4141;
@@ -78,6 +77,9 @@
   font-size: 15px;
   background: red;
   color: white;
+}
+.nav-login-cart .carts{
+  width: 35px;
 }
 
 .nav-dropdown {
@@ -123,6 +125,7 @@
   .navbar {
     padding: 10px 0px;
     background: #30364F;
+    min-height: 105px;
   }
 
   .nav-logo p,

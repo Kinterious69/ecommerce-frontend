@@ -8,17 +8,16 @@
 
 .new-collections h1 {
   color: #171717;
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 600;
   text-align: center;
 }
 
 .new-collections hr {
   width: 200px;
-  height: 6px;
   border-radius: 10px;
   background: #252525;
-  padding: 5px;
+  padding: 2px;
 }
 
 /*  COLLECTION GRID  */
@@ -55,7 +54,7 @@
 
   .new-collections hr {
     width: 120px;
-    height: 3px;
+    height: 1px;
   }
 
   .collections {
@@ -75,7 +74,7 @@
 
   .new-collections hr {
     width: 100px;
-    padding: 2px;
+    padding: 1px;
   }
 
   .collections {

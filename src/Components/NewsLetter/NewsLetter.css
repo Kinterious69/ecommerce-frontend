@@ -1,6 +1,6 @@
 .news-letter {
   width: 65%;
-  height: 40vh;
+  min-height: 40vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,6 +11,7 @@
   padding: 0px 140px;
   background: linear-gradient(180deg, #3d7eaa 0%, #ffe47a 60%);
   gap: 30px;
+  padding-bottom: 20px;
 }
 
 .news-letter h1 {
@@ -42,6 +43,7 @@
   outline: none;
   color: #616161;
   font-size: 16px;
+  
 }
 
 .news-letter div button {
