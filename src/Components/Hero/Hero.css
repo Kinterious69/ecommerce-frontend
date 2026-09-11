@@ -2,6 +2,7 @@
   height: 90vh;
   background: linear-gradient(180deg, #3d7eaa 0%, #ffe47a 60%);
   display: flex;
+  padding-top: 60px;
 }
 
 /*  LEFT  */

@@ -6,7 +6,7 @@ import arrow from '../Assets/arrow.png'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero '>
         <div className="hero-left">
             <h2>NEW ARRIVALS</h2>
             <div>
